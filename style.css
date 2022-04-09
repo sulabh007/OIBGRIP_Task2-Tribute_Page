@@ -12,7 +12,6 @@
         margin: 0;
         height: 30px;
     }
-
 }
 
 @media (min-width:420px){
@@ -26,14 +25,11 @@
         margin: 0;
         height: 45px;
     }
-
-    
 }
 
 @media (max-width:920px){
     main{
-        height: 100%;
-        
+        height: 100%;     
     }
     .section>input[name="collapse"]:checked~.content {
         height: fit-content;
@@ -48,7 +44,6 @@
         height: 0;
         transition: 0.5s;
     }
-
 }
 
 @media (min-width:920px){
@@ -60,7 +55,6 @@
         width: 35%;
         float: left;
     }
-
 }
    
 body{
@@ -73,7 +67,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
     flex-direction: column;
     align-items: center;
 }
@@ -82,18 +75,13 @@ input{
     display: none;
 }
 
-
 .handle, h1, h2, h3, h4{
     color: #a400ff;
 }
 
-
-
-
 #main-pic{
     width: 35%;
     margin-right: 30px;
-    margin-bottom: 15px;
 }
 
 #quote{
@@ -104,10 +92,6 @@ input{
 }
 a{
     color: magenta;
-}
-#sec-main{
-    float: right;
-    width: 22%;
 }
 
 table{
@@ -126,7 +110,7 @@ th, td{
     margin-right: 15px;
 }
 
-#img-right{
+#img-right, #sec-main{
     float: right;
     margin-left: 15px;
 }
