@@ -12,6 +12,12 @@
         margin: 0;
         height: 30px;
     }
+    #tchalla-quote{
+        font-size: 18px;
+    }
+    #quote{
+        font-size: 14px;
+    }
 }
 
 @media (min-width:420px){
@@ -25,6 +31,13 @@
         margin: 0;
         height: 45px;
     }
+    #tchalla-quote{
+        font-size: 30px;
+        margin: 50px;
+    }
+    #quote{
+        font-size: 18px;
+    }
 }
 
 @media (max-width:920px){
@@ -32,7 +45,7 @@
         height: 100%;     
     }
     .section>input[name="collapse"]:checked~.content {
-        height: fit-content;
+        height: 100%;
         transition: height 0.5s;
     }
     .section>input[name="collapse"]:checked~.content {
@@ -88,7 +101,6 @@ input{
     text-align: center;
     font-style: italic;
     color: #e000e0;
-    font-size: 18px;
 }
 a{
     color: magenta;
@@ -105,12 +117,12 @@ th, td{
     padding: 10px 20px 10px 20px;
 }
 
-#img-left{
+.img-left{
     float: left;
     margin-right: 15px;
 }
 
-#img-right, #sec-main{
+.img-right, #sec-main{
     float: right;
     margin-left: 15px;
 }
