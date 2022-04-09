@@ -1,19 +1,39 @@
 @media (max-width:420px){
-    h1{
-        font-size: 40px;
+    body{
+        font-size: 15px;
     }
+    h1{
+        font-size: 35px;
+    }
+    main{
+        margin-bottom: 15px;
+    }
+    .section .handle {
+        margin: 0;
+        height: 30px;
+    }
+
 }
 
 @media (min-width:420px){
     h1{
         font-size: 50px;
     }
+    body{
+        font-size: 20px;
+    }
+    .section .handle {
+        margin: 0;
+        height: 45px;
+    }
+
+    
 }
 
 @media (max-width:920px){
     main{
         height: 100%;
-        margin: 20px;
+        
     }
     .section>input[name="collapse"]:checked~.content {
         height: fit-content;
@@ -42,7 +62,7 @@
     }
 
 }
-        
+   
 body{
     background: url(images/4ca0b45c45656565c1631e8736b37676.jpg), black;
     color: #d78fff;
@@ -53,17 +73,13 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-size: 20px;
+    
     flex-direction: column;
     align-items: center;
 }
 
 input{
     display: none;
-}
-.section .handle {
-    margin: 0;
-    height: 45px;
 }
 
 
@@ -117,4 +133,6 @@ th, td{
 
 p{
     padding-left: 15px;
+    padding-right: 15px;
 }
+
