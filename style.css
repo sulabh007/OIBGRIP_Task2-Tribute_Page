@@ -1,3 +1,15 @@
+@media (max-width:420px){
+    h1{
+        font-size: 40px;
+    }
+}
+
+@media (min-width:420px){
+    h1{
+        font-size: 50px;
+    }
+}
+
 @media (max-width:920px){
     main{
         height: 100%;
@@ -16,12 +28,19 @@
         height: 0;
         transition: 0.5s;
     }
+
 }
+
 @media (min-width:920px){
     main{           
         margin: 50px;
         width: 1020px;
     }
+    #main-pic{
+        width: 35%;
+        float: left;
+    }
+
 }
         
 body{
@@ -51,15 +70,12 @@ input{
 .handle, h1, h2, h3, h4{
     color: #a400ff;
 }
-h1{
-    font-size: 50px;
-}
+
 
 
 
 #main-pic{
     width: 35%;
-    float: left;
     margin-right: 30px;
     margin-bottom: 15px;
 }
@@ -97,4 +113,8 @@ th, td{
 #img-right{
     float: right;
     margin-left: 15px;
+}
+
+p{
+    padding-left: 15px;
 }
