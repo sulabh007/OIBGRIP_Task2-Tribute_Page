@@ -1,0 +1,100 @@
+@media (max-width:920px){
+    main{
+        height: 100%;
+        margin: 20px;
+    }
+    .section>input[name="collapse"]:checked~.content {
+        height: fit-content;
+        transition: height 0.5s;
+    }
+    .section>input[name="collapse"]:checked~.content {
+        border-top: 0;
+        transition: 0.3s;
+    }
+    .section .content {
+        overflow: hidden;
+        height: 0;
+        transition: 0.5s;
+    }
+}
+@media (min-width:920px){
+    main{           
+        margin: 50px;
+        width: 1020px;
+    }
+}
+        
+body{
+    background: url(images/4ca0b45c45656565c1631e8736b37676.jpg), black;
+    color: #d78fff;
+    background-size: 1020px;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    display: none;
+}
+.section .handle {
+    margin: 0;
+    height: 45px;
+}
+
+
+.handle, h1, h2, h3, h4{
+    color: #a400ff;
+}
+h1{
+    font-size: 50px;
+}
+
+
+
+#main-pic{
+    width: 35%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+#quote{
+    text-align: center;
+    font-style: italic;
+    color: #e000e0;
+    font-size: 18px;
+}
+a{
+    color: magenta;
+}
+#sec-main{
+    float: right;
+    width: 22%;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 2px solid #6900a1;
+}
+th, td{
+    padding: 10px 20px 10px 20px;
+}
+
+#img-left{
+    float: left;
+    margin-right: 15px;
+}
+
+#img-right{
+    float: right;
+    margin-left: 15px;
+}
